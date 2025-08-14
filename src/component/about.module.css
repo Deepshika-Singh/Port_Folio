@@ -1,0 +1,62 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /* ⬅️ align items to the left */
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  
+  overflow-x: auto;
+}
+
+
+.aboutImg {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  padding-left: 5rem;
+}
+
+.aboutImg img {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+.aboutText {
+  color: white;
+  flex: 1;
+  max-width: 60rem;
+  margin-right: 0rem;
+  padding-left: 10rem;
+}
+
+.aboutInfo {
+  display: flex;
+  gap: 1rem; /* or try 16px, 20px etc. */
+  margin-top: 1rem; /* Optional: adds space from above paragraph */
+}
+
+/* Keep the exact same layout on mobile */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: row;
+    flex-wrap: nowrap;  /* force same layout */
+  }
+
+  .aboutText {
+    font-size: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .aboutImg {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.5rem;
+}
+}

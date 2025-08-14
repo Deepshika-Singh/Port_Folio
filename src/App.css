@@ -1,0 +1,10 @@
+.home{
+  /* background-color: rgb(221, 189, 246); */
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+.footer{
+  background-color: rgb(29, 29, 50);
+  color: whitesmoke;
+}

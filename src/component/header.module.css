@@ -1,0 +1,39 @@
+.header {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0;
+  width: 100%;
+  z-index: 1050; /* higher than Bootstrap dropdowns (usually 1000+) */
+  background-color:whitesmoke !important;
+  color: black;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+
+.navList {
+  gap: 5rem;
+  list-style: none;
+}
+
+.navLink {
+  color:black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+ 
+  
+}
+
+.active{
+  background-color: blueviolet;
+  color: white;
+  min-width: 5px;
+  min-height: 10px;
+  padding: 5px 10px;
+  border-radius: 6px;
+}

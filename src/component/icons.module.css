@@ -1,0 +1,18 @@
+.skillBox {
+  width: 100%;
+}
+
+.headingText {
+  font-size: 3rem;
+  color: violet;
+}
+
+.iconBox {
+  box-sizing: border-box;
+  height: auto;          /* ✅ Let it grow as needed */
+  width: 100%;
+  border-radius: 1.5rem;
+  overflow: hidden;      /* ✅ Prevent icon overflow */
+  background-color: #06042a;
+  color: white;
+}

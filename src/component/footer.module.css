@@ -1,0 +1,67 @@
+.footer {
+  background-color: #06042a; /* same theme as skills section */
+  color: white;
+  text-align: center; /* center all text */
+  padding: 20px;
+}
+
+.pta {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center; /* center the icons */
+  gap: 20px; /* space between icons */
+  flex-wrap: wrap; /* make it wrap on smaller screens */
+  margin-bottom: 15px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between icon and text */
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-link:hover {
+  color: #00ffff; /* hover effect */
+  transform: scale(1.05); /* slight zoom on hover */
+}
+
+.subtext {
+  font-size: 0.9rem;
+  color: #cccccc;
+}
+
+/* --- Responsive adjustments --- */
+@media (max-width: 768px) {
+  .pta {
+    font-size: 1rem;
+  }
+  .social-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 15px;
+  }
+  .social-links {
+    gap: 12px;
+  }
+  .social-link {
+    font-size: 0.85rem;
+  }
+  .pta {
+    font-size: 0.95rem;
+  }
+  .subtext {
+    font-size: 0.8rem;
+  }
+}

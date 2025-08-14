@@ -1,0 +1,32 @@
+.heading {
+  /* color: #00FFFF; */
+  color: rgb(169, 144, 193);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.card {
+  margin: 15px auto; /* auto centers, 15px space all around */
+  background-color: rgb(54, 2, 2) !important;
+  color: rgb(194, 193, 220) !important;
+}
+
+.icons {
+  font-size: 2.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 12px; /* spacing between icons */
+  flex-wrap: wrap;
+}
+
+.skillHead {
+  color: #FFBF00 !important;
+}
+
+/* Make heading smaller on small screens */
+@media (max-width: 576px) {
+  .heading {
+    font-size: 2rem;
+  }
+}
