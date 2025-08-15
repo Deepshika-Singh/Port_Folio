@@ -1,6 +1,5 @@
 import about_me from "../images/about_me.png";
 import styles from "./about.module.css";
-import Skills from "./skills";
 import { HiDownload } from "react-icons/hi";
 const About = () => {
   return (

@@ -1,4 +1,4 @@
-import styles from "./projects.module.css";
+import styles from "./project.module.css";
 import to_do_list from "../images/to_do_list.png";
 import calculator from "../images/calculator.jpg";
 import portfolio from "../images/portfolio_img.jpg";
