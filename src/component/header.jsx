@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./header.module.css";
-import logo from "../images/Logo.jpg";
+import logo from "../images/logo.jpg";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -50,7 +50,7 @@ const Header = () => {
           href="#home"
           onClick={() => handleClick("home")}
         >
-          <img src={logo} alt="Logo" width="50" height="50" className="me-2" />
+          <img src={logo} alt="logo" width="50" height="50" className="me-2" />
           Deepshika Singh
         </a>
 
