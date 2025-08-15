@@ -1,11 +1,11 @@
 import './App.css'
-import Header from './component/header'
-import Home from './component/home'
-import About from './component/about'
-import Footer from './component/footer'
-import Projects from './component/project'
-import Contact from './component/contact'
-import New_skills from './component/new_Skills'
+import Header from './components/header'
+import Home from './components/home'
+import About from './components/about'
+import Footer from './components/footer'
+import Projects from './components/project'
+import Contact from './components/contact'
+import New_skills from './components/new_Skills'
 function App() {
   return <>
   <Header></Header>
