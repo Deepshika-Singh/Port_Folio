@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./header.module.css";
-import logo from "../images/logo.JPG";
+import logo from "../images/logo.jpg";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("home");
