@@ -6,7 +6,7 @@
 }
 
 .card {
-  margin: 15px auto; /* auto centers, 15px space all around */
+  margin: 15px auto;
   background-color: rgb(54, 2, 2) !important;
   color: rgb(194, 193, 220) !important;
 }
@@ -16,7 +16,7 @@
   color: white;
   display: flex;
   justify-content: center;
-  gap: 12px; /* spacing between icons */
+  gap: 12px;
   flex-wrap: wrap;
 }
 
@@ -24,7 +24,6 @@
   color: #FFBF00 !important;
 }
 
-/* Make heading smaller on small screens */
 @media (max-width: 576px) {
   .heading {
     font-size: 2rem;

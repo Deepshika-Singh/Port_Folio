@@ -1,7 +1,7 @@
 .about {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start; /* ⬅️ align items to the left */
+  justify-content: flex-start; 
   align-items: center;
   gap: 2rem;
   flex-wrap: nowrap;
@@ -36,15 +36,14 @@
 
 .aboutInfo {
   display: flex;
-  gap: 1rem; /* or try 16px, 20px etc. */
-  margin-top: 1rem; /* Optional: adds space from above paragraph */
+  gap: 1rem; 
+  margin-top: 1rem; 
 }
 
-/* Keep the exact same layout on mobile */
 @media (max-width: 768px) {
   .about {
     flex-direction: row;
-    flex-wrap: nowrap;  /* force same layout */
+    flex-wrap: nowrap;  
   }
 
   .aboutText {

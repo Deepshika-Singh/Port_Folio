@@ -18,7 +18,7 @@ const About = () => {
         <div className={`${styles.aboutInfo}`}>
         <button type="button" class="btn btn-success">
            <a
-            href="/Resume.pdf" // This should be in public folder
+            href="/Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-success"

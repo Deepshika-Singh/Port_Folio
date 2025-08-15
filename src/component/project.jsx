@@ -22,7 +22,7 @@ const Projects = () => {
             <p className="card-text">
               A simple and interactive task manager that lets users add, delete, and mark tasks as completed in real-time.
             </p>
-            <a href="#" className="btn btn-primary">
+            <a href="https://github.com/Deepshika-Singh/todo-app" className="btn btn-primary">
               <IoLogoGithub /> Check here
             </a>
           </div>
@@ -64,7 +64,7 @@ const Projects = () => {
             <p className="card-text">
                A personal portfolio website showcasing projects, skills, and contact information in a visually appealing layout.
             </p>
-            <a href="#" className="btn btn-primary">
+            <a href="https://github.com/Deepshika-Singh/Port_Folio" className="btn btn-primary">
               <IoLogoGithub /> Check here
             </a>
             </center>

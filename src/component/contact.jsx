@@ -40,12 +40,12 @@ const Contact = () => {
       <h1 className={styles.contactHeader}> Contact Me </h1>
       <div className={styles.contactContainer}>
         <div className={styles.contactGrid}>
-          {/* Left image */}
+
           <div className={styles.contactImg}>
             <img src={contact_img} alt="contact_img" />
           </div>
 
-          {/* Right form section */}
+        
           <div className={styles.contactContent}>
             <h3 className={styles.contactHeading}>Send a Message</h3>
             {submitted && <p className={styles.successMsg}>Thanks for your message!</p>}

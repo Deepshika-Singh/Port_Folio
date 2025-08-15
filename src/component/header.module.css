@@ -3,7 +3,7 @@
   top: 0 !important;
   left: 0;
   width: 100%;
-  z-index: 1050; /* higher than Bootstrap dropdowns (usually 1000+) */
+  z-index: 1050; 
   background-color:whitesmoke !important;
   color: black;
   padding: 1rem 2rem;

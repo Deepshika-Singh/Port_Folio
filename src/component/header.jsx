@@ -5,24 +5,22 @@ import logo from "../images/logo.jpg";
 const Header = () => {
   const [activeLink, setActiveLink] = useState("home");
 
-  // Update active link on click
   const handleClick = (link) => {
     setActiveLink(link);
   };
 
-  // Update active link on scroll using IntersectionObserver
   useEffect(() => {
-    const sections = document.querySelectorAll("section[id]"); // all sections with an id
+    const sections = document.querySelectorAll("section[id]"); 
 
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            setActiveLink(entry.target.id); // set active link to section's id
+            setActiveLink(entry.target.id); 
           }
         });
       },
-      { threshold: 0.6 } // trigger when 60% of section is visible
+      { threshold: 0.6 }
     );
 
     sections.forEach((section) => observer.observe(section));
@@ -44,7 +42,6 @@ const Header = () => {
     <nav className={`navbar ${styles.header}`}>
       <div className="container-fluid d-flex justify-content-between align-items-center">
 
-        {/* Logo */}
         <a
           className="navbar-brand d-flex align-items-center"
           href="#home"
@@ -54,7 +51,6 @@ const Header = () => {
           Deepshika Singh
         </a>
 
-        {/* Desktop Menu */}
         <ul className={`d-none d-lg-flex ${styles.navList} mb-0`}>
           {navItems.map((item) => (
             <li key={item.id}>
@@ -69,7 +65,6 @@ const Header = () => {
           ))}
         </ul>
 
-        {/* Mobile Dropdown */}
         <div className="dropdown d-lg-none">
           <button
             className="btn btn-secondary dropdown-toggle"

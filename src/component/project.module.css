@@ -6,13 +6,12 @@
 
 .projectContainer {
   display: flex;
-  flex-wrap: wrap; /* ✅ wrap cards on smaller screens */
-  justify-content: center; /* ✅ center cards horizontally */
+  flex-wrap: wrap; 
+  justify-content: center;
   gap: 7rem;
   margin-top: 5rem;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   .projectHeader {
     font-size: 30px;
