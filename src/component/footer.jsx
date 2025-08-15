@@ -10,6 +10,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/deepshikha-singh-243a83277/"
           aria-label="LinkedIn"
           target="_blank"
+          rel="noopener noreferrer"
           className={styles["social-link"]}
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
@@ -22,6 +23,7 @@ const Footer = () => {
           href="https://github.com/Deepshika-Singh"
           aria-label="GitHub"
           target="_blank"
+          rel="noopener noreferrer"
           className={styles["social-link"]}
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
