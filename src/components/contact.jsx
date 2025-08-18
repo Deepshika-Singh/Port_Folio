@@ -87,8 +87,8 @@ const Contact = () => {
               />
               <ContactItem
                 icon={<FiPhone className={styles.icon} />}
-                label="+91 9120051835"
-                href="tel:+919120051835"
+                label="+91 8448247665"
+                href="tel:+918448247665"
               />
               <ContactItem
                 icon={<FaLinkedin className={styles.icon} />}
